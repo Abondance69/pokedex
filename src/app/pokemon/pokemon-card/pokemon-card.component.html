@@ -1,10 +1,8 @@
 <div class="pokemon-card">
-  <a routerLink="/pokemons">
+  <a [routerLink]="'/pokemon/' + name">
     <div class="card-image">
-      <img
-        src="{{imagePath}}"
-        [alt]="imageAlt"
-      />
+      <img [src]="imagePath" [alt]="imageAlt" />
+      <i (click)="onAddPokemonFavorite(name)" [class]="active ? 'fa-solid fa-heart blue' : 'fa-regular fa-heart'"></i>
     </div>
 
     <div class="card-title">

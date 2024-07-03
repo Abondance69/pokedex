@@ -27,7 +27,7 @@
 
 .pokemon-card img:hover {
   transform: scale(1.03);
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   filter: grayscale(70%);
 }
 
@@ -39,10 +39,10 @@
   color: black;
   font-size: 30px;
   position: relative;
-  bottom : 98%;
+  bottom: 98%;
   left: 80%;
 }
 
-.card-image .blue{
+.card-image .blue {
   color: crimson;
 }

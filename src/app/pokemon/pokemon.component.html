@@ -1,6 +1,11 @@
-<div class="pokemon">
+<div class="pokemons">
+  <div class="pokemons-title">
+    <h2>LISTE DES POKEMONS</h2>
+  </div>
+
+  <div class="pokemon">
     @for (pokemon of pokemons; track $index) {
-        <app-pokemon-card [name]="pokemon.name"></app-pokemon-card>
+    <app-pokemon-card [name]="pokemon.name"></app-pokemon-card>
     }
-    <!-- <app-paggination [count]="count" ></app-paggination> -->
+  </div>
 </div>

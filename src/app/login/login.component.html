@@ -1,1 +1,39 @@
-<p>login works!</p>
+<div class="form">
+  <div class="form-container">
+    <h2>Connexion</h2>
+    <div class="form-section">
+      <div class="form-group">
+        <input
+          id="login"
+          placeholder="Votre pseudo"
+          type="text"
+          [formControl]="pseudo"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          id="password"
+          placeholder="Votre mot de passe"
+          type="password"
+          [formControl]="password"
+        />
+      </div>
+
+      <button class="submit-button" type="button" (click)="loginCustomer()">
+        Connexion
+      </button>
+
+      <div class="other">
+        <span>Vous n'avez pas des comptes ?  <a routerLink="/register">Créer un comptes</a></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-img">
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"
+      alt=""
+    />
+  </div>
+</div>

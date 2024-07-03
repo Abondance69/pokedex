@@ -1,5 +1,13 @@
+.pokemons {
+  padding: 0 40px;
+}
+
+.pokemons-title {
+  padding: 20px;
+  text-align: center;
+}
+
 .pokemon {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 40px;
 }
