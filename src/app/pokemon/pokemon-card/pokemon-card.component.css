@@ -1,0 +1,51 @@
+.pokemon-card {
+  width: 14vw;
+  height: 50vh;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pokemon-card a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pokemon-card p:hover {
+  color: rgb(179, 179, 179);
+  width: min-content;
+}
+
+.pokemon-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: white;
+}
+
+.pokemon-card img:hover {
+  transform: scale(1.03);
+  transition: .3s all ease;
+  filter: grayscale(70%);
+}
+
+.card-image {
+  height: 90%;
+}
+
+.card-button button {
+  padding: 10px 16px;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.card-button button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}

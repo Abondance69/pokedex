@@ -1,0 +1,17 @@
+.nav-title img {
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.nav-title a {
+    display: flex;
+}
+
+.nav-title :hover {
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.nav-title h1{
+    margin: 0 18px;
+}

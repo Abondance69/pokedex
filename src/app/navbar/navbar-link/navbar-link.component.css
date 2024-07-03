@@ -1,0 +1,19 @@
+.navbar-link {
+  display: flex;
+}
+
+.navbar-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6px;
+}
+
+.navbar-link a:hover {
+  color: rgba(255, 255, 255, 0.562);
+}
+
+.navbar-link i {
+  margin: 0 10px;
+  font-size: 25px;
+}
